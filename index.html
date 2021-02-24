@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Goal Setting App</title>
+  </head>
+  <body>
+    <nav class="nav-tab" id="nav">
+      <div class="account">
+        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="" />
+        <div class="account-info">
+          <strong>Name</strong>
+          <small>Account Info</small>
+        </div>
+      </div>
+      <button class="create-goal" id="create-goal">Create Goal</button>
+      <button class="schedule" id="schedule">Schedule</button>
+    </nav>
+
+    <section class="goals" id="goals">
+      <div class="goal-container">
+        <div class="goal-title">
+          <h1 class="goal-name">Goal Name</h1>
+          <div class="goal-portrait"><i class="fas fa-dumbbell"></i></div>
+        </div>
+        <div class="goal-data">
+          <div class="goal-progress-bar">
+            <div class="progress-bar-bg"></div>
+            <div class="progress-bar-frame"></div>
+            <div class="progress-bar-progress"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

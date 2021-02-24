@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+/* NAVIGATION BAR */
+.nav-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15rem;
+  height: 100vh;
+  background-color: greenyellow;
+}
+
+.account {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.account img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.nav-tab button {
+  background-color: greenyellow;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+/* GOALS */
+.goals {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  /* height: calc(100vh - 4rem); */
+  width: 100%;
+  height: 100%;
+  /* margin: 2rem; */
+}
+
+.goal-container {
+  border: 1px solid orange;
+  display: flex;
+  margin: 2rem;
+}
+
+.goal-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.goal-name {
+  word-wrap: normal;
+  text-align: center;
+  width: 15rem;
+}
+
+.goal-portrait {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  border-radius: 50%;
+  border: 4px solid black;
+  background-color: lightcoral;
+  width: 8rem;
+  height: 8rem;
+}
+
+.goal-data {
+  border: 1px solid blue;
+}
+
+.goal-progress-bar {
+  border: 1px solid red;
+  position: relative;
+  width: 40rem;
+  height: 5rem;
+  border-radius: 1.5rem;
+}
+
+.progress-bar-bg {
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+}
+.progress-bar-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-color: steelblue;
+}
+
+.progress-bar-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+  border: 4px solid black;
+  z-index: 1;
+}
